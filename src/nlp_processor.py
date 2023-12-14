@@ -21,10 +21,17 @@ def preprocess_text(text):
     return filtered_tokens
 
 def recognize_intent(tokens):
-    # Dummy implementation for intent recognition
     if 'password' in tokens:
         return 'reset_password'
     elif 'refund' in tokens or 'return' in tokens:
         return 'refund_request'
+    elif 'order' in tokens or 'shipping' in tokens or 'deliver' in tokens:
+        return 'order_status'
+    elif 'product' in tokens or 'feature' in tokens:
+        return 'product_info'
+    elif 'account' in tokens:
+        return 'account_help'
+    elif 'payment' in tokens or 'bill' in tokens or 'charge' in tokens:
+        return 'billing_query'
     else:
         return 'general_query'
