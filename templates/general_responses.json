@@ -1,0 +1,18 @@
+{
+    "reset_password": [
+        "To reset your password, please follow the instructions sent to your email, {username}.",
+        "Hi {username}, you can reset your password by clicking this link: {reset_link}."
+    ],
+    "refund_request": [
+        "For refund requests, please fill out our online refund form, {username}.",
+        "Hello {username}, to proceed with a refund, visit: {refund_form_link}."
+    ],
+    "order_status": [
+        "To check the status of your order, {order_id}, please use our order tracking tool.",
+        "{username}, your order {order_id} is currently {order_status}. You can track it here: {tracking_link}."
+    ],
+    "general_query": [
+        "Thank you for reaching out, {username}. Could you please provide more details about your query?",
+        "Hello {username}, I didn't quite get that. Could you offer more information?"
+    ]
+}
